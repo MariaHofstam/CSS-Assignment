@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.header{
+    background-color: coral;  
+}
+
+.title{
+    padding-left: 10px;
+    width: 30%;
+    float: left;
+}
+
+.header li{
+    background-color: rgba(153, 0, 255, 0.562);
+    font-size: 20px;
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.blogg-body{
+    background-color: rgba(243, 245, 149, 0.377);
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+}
+
+.main-header{
+    padding-left: 30px;
+}
+
+.intro-text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.article{
+    width: 360px;
+    float: left;
+    padding-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.side-content{
+    background-color: rgba(184, 209, 137, 0.541);
+    width: 25%;
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.side-content li{
+    padding-left: 15px;
+}
+
+.side-content ol{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom{
+    background-color: rgba(137, 43, 226, 0.418);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#author-text{
+    font-size: 20px;
+    margin-left: 10px;
+}
